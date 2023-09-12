@@ -1,66 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bookshelf</title>
-    <link rel="stylesheet" href="asset/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="asset/css/style.css" />
+  </head>
+  <body>
     <header class="tittle_head">
-        <h2 class="tittle"> BOOKSELF APPS</h2>
+      <h2 class="tittle">BOOKSELF APPS</h2>
     </header>
     <main>
-        <section class=input-containner>
-            <h4 class="hEmpat">Masukan Buku Terbaru</h4>
-            <form id="input_buku">
-                <div class="input">
-                    <label for="inputJudulBuku">Judul Buku</label>
-                    <input type="text" id="inputJudulBuku" required>
-                </div>
-                <div class="input">
-                    <label for="inputPenulisBuku">Penulis Buku</label>
-                    <input type="text" id="inputPenulisBuku" required>
-                </div>
-                <div class="input">
-                    <label for="inputTahunBuku">Tahun Buku</label>
-                    <input type="number" id="inputTahunBuku" required>
-                </div>
-                <div class="inputKeteranganBaca">
-                    <label for="inputKeteranganBuku">Selesai Dibaca</label>
-                    <input id="inputKeteranganBuku" type="checkbox">
-                </div>
-                <button id="btnSubmit" type="submit">Masukan Buku ke Rak</button>
-            </form>
-        </section>
-        <section class="search">
-            <div class="judulSearch">
-                <h4>Cari Buku</h4>
-            </div>
-            <form id="searchBook">
-                <label for="cariJudulBuku"></label>
-                <input type="text" id="cariJudulBuku">
-                <button id="searchSubmit" type="submit">Cari</button>
-            </form>
-        </section>
-        <section class="rakBukuContainner">
-            <div class="kiri">
-                <div class="rakBuku">
-                    <h4>Belum selesai dibaca</h4>
-                    <h6>*Edit dengan mengklick judul buku</h6>
-                    <div div id="belumdibaca" class="listBuku"></div>
-                </div>
-            </div>
-            <div class="kanan">
-                <div class="rakBukuSelesai">
-                    <h4>Selesai dibaca</h4>
-                    <h6>*Edit dengan mengklick judul buku</h6>
-                    <div id="sudahdibaca" class="listBuku"></div>
-                </div>
-            </div>
-        </section>
+      <section class="input-containner">
+        <h4 class="hEmpat">Masukan Buku Terbaru</h4>
+        <form id="input_buku">
+          <div class="input">
+            <label for="inputJudulBuku">Judul Buku</label>
+            <input type="text" id="inputJudulBuku" required />
+          </div>
+          <div class="input">
+            <label for="inputPenulisBuku">Penulis Buku</label>
+            <input type="text" id="inputPenulisBuku" required />
+          </div>
+          <div class="input">
+            <label for="inputTahunBuku">Tahun Buku</label>
+            <input type="number" id="inputTahunBuku" required />
+          </div>
+          <div class="inputKeteranganBaca">
+            <label for="inputKeteranganBuku">Selesai Dibaca</label>
+            <input id="inputKeteranganBuku" type="checkbox" />
+          </div>
+          <button id="btnSubmit" type="submit">Masukan Buku ke Rak</button>
+        </form>
+      </section>
+      <section class="search">
+        <div class="judulSearch">
+          <h4>Cari Buku</h4>
+        </div>
+        <form id="searchBook">
+          <label for="cariJudulBuku"></label>
+          <input type="text" id="cariJudulBuku" />
+          <button id="searchSubmit" type="submit">Cari</button>
+        </form>
+      </section>
+      <section class="rakBukuContainner">
+        <div class="kiri">
+          <div class="rakBuku">
+            <h4>Belum selesai dibaca</h4>
+            <h6>*Edit dengan mengklick judul buku</h6>
+            <div id="belumdibaca" class="listBuku"></div>
+          </div>
+        </div>
+        <div class="kanan">
+          <div class="rakBukuSelesai">
+            <h4>Selesai dibaca</h4>
+            <h6>*Edit dengan mengklick judul buku</h6>
+            <div id="sudahdibaca" class="listBuku"></div>
+          </div>
+        </div>
+      </section>
     </main>
     <script src="asset/js/index.js"></script>
-</body>
+  </body>
 </html>
